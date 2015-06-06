@@ -4,3 +4,10 @@ body{
 .em-text{
   color: #1caa98 !important;
 }
+.jumbotron{
+  background: url("../images/man-phone.jpg") no-repeat top center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  overflow: none;
+}
