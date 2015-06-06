@@ -85,15 +85,25 @@ footer p{
   #feature{
     text-align: center;
   }
+}
+
+@media(min-width: 768px) and (max-width: 990px){
   #feature img{
     width: 40%;
   }
 }
 
-@media(max-width: 991px){
-
+@media(max-width: 786px){
+  footer{
+    text-align: center;
+  }
+  footer ul{
+    display: none;
+  }
+  footer p{
+    float: none;
+  }
 }
 
-@media(min-width: 768px) and (max-width: 990px){
-
+@media(max-width: 500px){
 }
