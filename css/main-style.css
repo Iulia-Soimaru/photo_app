@@ -69,3 +69,22 @@ footer p{
 #title-bar h1{
   margin-bottom: 40px;
 }
+/************   MOBILE   ****************/
+@media(max-width: 1200px){
+  .jumbotron a{
+    display: block;
+    margin-bottom: 15px;
+    width: 60%;
+  }
+  .jumbotron img{
+    width: 80% !important;
+  }
+}
+
+@media(max-width: 991px){
+
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+
+}
