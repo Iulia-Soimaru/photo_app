@@ -106,4 +106,10 @@ footer p{
 }
 
 @media(max-width: 500px){
+  body{
+    text-align: center;
+  }
+  .jumbotron{
+    background: #1b222c;
+  }
 }
