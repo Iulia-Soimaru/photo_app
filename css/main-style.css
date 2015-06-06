@@ -41,6 +41,9 @@ img.demo{
   list-style: none;
   line-height: 2em;
 }
+.big-logo{
+  width: 70%;
+}
 /************   FOOTER   ****************/
 footer{
   background: #333;
@@ -78,6 +81,12 @@ footer p{
   }
   .jumbotron img{
     width: 80% !important;
+  }
+  #feature{
+    text-align: center;
+  }
+  #feature img{
+    width: 40%;
   }
 }
 
