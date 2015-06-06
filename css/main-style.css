@@ -7,6 +7,9 @@ section{
 .em-text{
   color: #1caa98 !important;
 }
+.col-md-4{
+  margin-bottom: 20px;
+}
 /************   NAVIGATION   ****************/
 .jumbotron{
   background: url("../images/man-phone.jpg") no-repeat top center;
@@ -35,6 +38,10 @@ img.demo{
 }
 #feature h1{
   margin-bottom: 30px;
+}
+#feature ul{
+  padding: 0;
+  margin: 0;
 }
 #feature ul li{
   font-size: 1.3em;
@@ -83,14 +90,11 @@ footer p{
     width: 80% !important;
   }
   #feature{
-    text-align: center;
   }
 }
 
 @media(min-width: 768px) and (max-width: 990px){
-  #feature img{
-    width: 40%;
-  }
+
 }
 
 @media(max-width: 786px){
@@ -106,10 +110,11 @@ footer p{
 }
 
 @media(max-width: 500px){
-  body{
-    text-align: center;
-  }
   .jumbotron{
     background: #1b222c;
+    text-align: center;
+  }
+  #feature img{
+    width: 100%;
   }
 }
