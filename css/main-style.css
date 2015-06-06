@@ -38,3 +38,19 @@ img.demo{
   list-style: none;
   line-height: 2em;
 }
+footer{
+  background: #333;
+  color: white;
+  padding: 30px;
+}
+footer li{
+  float: left;
+  padding: 0 10px;
+  list-style: none;
+}
+footer a{
+  color: white !important;
+}
+footer p{
+  float: right;
+}
