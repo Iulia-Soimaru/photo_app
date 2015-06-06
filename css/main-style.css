@@ -7,6 +7,7 @@ section{
 .em-text{
   color: #1caa98 !important;
 }
+/************   NAVIGATION   ****************/
 .jumbotron{
   background: url("../images/man-phone.jpg") no-repeat top center;
   background-size: cover;
@@ -20,10 +21,12 @@ section{
 .jumbotron p{
   margin-bottom: 60px;
 }
+/************   MIDDLE   ****************/
 img.demo{
   width: 100%;
   padding: 3px;
 }
+/************   FEATURE   ****************/
 #feature{
   background: #1caa98;
   color: white;
@@ -38,6 +41,7 @@ img.demo{
   list-style: none;
   line-height: 2em;
 }
+/************   FOOTER   ****************/
 footer{
   background: #333;
   color: white;
@@ -54,3 +58,4 @@ footer a{
 footer p{
   float: right;
 }
+/************   ABOUT   ****************/
