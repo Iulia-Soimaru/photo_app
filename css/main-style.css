@@ -24,3 +24,14 @@ img.demo{
   width: 100%;
   padding: 3px;
 }
+#feature{
+  background: #1caa98;
+  color: white;
+  padding: 40px;
+  overflow: auto;
+}
+#feature ul li{
+  font-size: 1.3em;
+  list-style: none;
+  line-height: 2em;
+}
